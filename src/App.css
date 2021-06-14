@@ -1,4 +1,12 @@
+h1{
+padding-top: 100px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
 
-body {
-  text-align: center;
+html{
+    
+background-color:#FFFAFA ;
+min-height: 100%;
+
 }
