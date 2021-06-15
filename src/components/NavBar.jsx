@@ -1,6 +1,8 @@
 import React from 'react';
 import {AppBar, makeStyles, Toolbar, Typography} from '@material-ui/core';
 import CardWidget from './CardWidget'
+import Menu from './Menu'
+import '../App.css'
 
 
 const useStyles = makeStyles (theme => ({
@@ -12,18 +14,24 @@ const classes = useStyles()
  
 return (
   <div>
-    <AppBar> 
+    <AppBar color='secondary'> 
       <Toolbar>     
+      
+
         <Typography variant="h6">
-         IMAGEN 
+        <p className='title'> IMAGEN </p> 
         </Typography>
 
 
-    <CardWidget />
+    <CardWidget className='card'/>
+
+    <Menu />
+
 
 
       </Toolbar>
     </AppBar>
+    
     
     <div className={classes.offset}></div>
   </div>

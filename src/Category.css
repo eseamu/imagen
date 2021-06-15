@@ -1,0 +1,57 @@
+.visible {
+    display:block;
+}
+
+.no-visible{
+    display:none;
+}
+
+.menu{
+    width: 250px;
+    position: absolute;
+    color: #FFF;
+    cursor: pointer;
+    top: 5px;
+    left: 20%;
+
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.category h3{
+    font-size: 15px;
+    line-height: 34px;
+    padding: 0 10px;
+    margin: 0px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    
+    
+}
+
+.category ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 10px;
+    display: block;
+    padding: 15px 0 ;
+    
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+
+.category ul li a:hover {
+    color: #FFF;
+    background-color: #999;
+    transition-duration: 1s;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+
+
