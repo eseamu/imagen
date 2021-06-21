@@ -1,5 +1,4 @@
 h1{
-padding-top: 100px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
 }
@@ -9,5 +8,54 @@ html{
 background-color:#FFFAFA ;
 min-height: 100%;
 
+}
+
+
+.contador {
+    width: 200px;
+    height: 20px;
+    display: flex;
+    border: 1px solid none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #999;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.button-count{ 
+    border: none;
+    color: #3498DB;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    background: none;
+}
+
+
+.item-count{
+    width: 210px;
+    height: 150px;
+    border: 1px solid none;
+    padding: 20px;
+    background-color:#F2F2F2;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+.button-carrito{
+    width: 210px;
+    height: 40px;
+    border: 2px solid #3498DB;
+    border-radius: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
